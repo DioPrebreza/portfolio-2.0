@@ -15,14 +15,14 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
+  ucx,
+  appbites,
+  wearecasino,
+  ortus,
+  dojo,
+  mprofessional,
+  trafiku,
 } from "../assets";
 
 export const navLinks = [
@@ -42,19 +42,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Web & Mobile Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "ReactJS Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "React Native Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Javascript Enthusiast",
     icon: creator,
   },
 ];
@@ -116,55 +116,55 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Software Developer Intern",
+    company_name: "UCX",
+    icon: ucx,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Jun 2019 - Sep 2019",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Collaborated with a team of 10 interns to develop an e-commerce web app and website.",
+      "Contributed to back-end development using Java EE to ensure robust functionality and seamless performance.",
+      "Utilized the Angular framework for front-end development to build an intuitive user interface.",
+      "Applied TypeScript to enhance front-end design and create a compelling user experience.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Web Developer & Designer",
+    company_name: "Appbites",
+    icon: appbites,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Feb 2020 - Sep 2020",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Programmed front-end interfaces for high-profile projects and websites.",
+      "Crafted visually appealing and responsive web designs.",
+      "Utilized ReactJS and JavaScript to create dynamic and engaging user experiences.",
+      "Worked on notable projects such as Trafiku Urban, Speex Backoffice, and Karcher e-commerce website.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "L2 Technical Support Engineer – Web and Game Applications",
+    company_name: "WeAreCasino",
+    icon: wearecasino,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Apr 2022 - Jan 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Provided L2 technical support for high-profile web and game applications.",
+      "Identified and resolved bugs in website and game code.",
+      "Collaborated with development teams to troubleshoot and fix front-end and back-end issues.",
+      "Ensured optimal performance and functionality of applications across various projects.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Project Director & Outbound Specialist",
+    company_name: "The Ortus Club",
+    icon: ortus,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "May 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Generate leads and develop business by reaching out to potential clients across various platforms.",
+      "Ensure a steady pipeline of outbound marketing leads, contributing to the company's growth.",
+      "Build and maintain relationships with potential clients to drive long-term business development.",
+      "Lead the planning and execution of high-profile business events, managing teams and collaborating with clients to deliver impactful experiences.",
     ],
   },
 ];
@@ -172,93 +172,93 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+      "Dionis consistently exceeds expectations with his dedication and meticulous approach to every task.",
+    name: "Driton Hyseni",
+    designation: "Head of Performance",
+    company: "The Ortus Club",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+      "His relentless pursuit of perfection and professionalism make Dionis an invaluable asset to any team.",
+    name: "Flandra Sadiku",
+    designation: "Head of Strategic Growth",
+    company: "The Ortus Club",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "The Dojo Project Managment",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Personal project that I made in my spare time. This is a task managment web application to help users easily create, assign, and track tasks for their projects. It’s all about making it easier to stay organized and keep everything on track.",
     tags: [
       {
-        name: "react",
+        name: "javascript",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "react",
+        color: "green-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: dojo,
+    source_code_link: "https://github.com/DioPrebreza/Dojo-Project-Management",
+    live_link: "https://dojomanagement.netlify.app",
+  },
+  {
+    name: "Mprofessional Expense",
+    description:
+      "Freelance project which I developed alongside my good friend for a client which wanted his personal expense tracker. The app enables users to categorize and add expenses, view summaries, and filter data by calendar. Please note that the provided link leads to a staging environment due to confidentiality and privacy requirements set by the client.",
+    tags: [
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react-native",
         color: "green-text-gradient",
       },
       {
         name: "tailwind",
         color: "pink-text-gradient",
       },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
+        name: "firebase",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: mprofessional,
+    source_code_link: "https://github.com/EnesHasani123/Budget-Buddy-App-main",
+    live_link:
+      "https://apps.apple.com/gb/app/mprofessional-expense/id6520393197",
   },
   {
-    name: "Trip Guide",
+    name: "Trafiku Urban",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Professional company project which i contributed in developing when working for Appbites. This app provides users in Prishtina with real-time information on urban bus locations and schedules, featuring a live map that displays current bus positions and estimated arrival times. Please note that, due to company privacy policies, the source code cannot be shared.",
     tags: [
       {
-        name: "nextjs",
+        name: "javascript",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "react-native",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "google-maps-api",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: trafiku,
+    source_code_link: false,
+    live_link: "https://apps.apple.com/gb/app/trafiku-urban/id1192711894",
   },
 ];
 

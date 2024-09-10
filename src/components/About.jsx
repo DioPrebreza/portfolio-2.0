@@ -41,13 +41,12 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
+        Hi, I’m Dionis Prebreza, a passionate web and mobile developer
+        specializing in ReactJS and React Native. I love crafting sleek,
+        responsive websites and mobile apps that deliver top-tier user
+        experiences. With a knack for problem-solving and a focus on clean,
+        efficient code, I aim to turn complex challenges into seamless digital
+        solutions.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

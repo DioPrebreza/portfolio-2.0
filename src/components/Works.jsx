@@ -3,7 +3,7 @@ import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { github } from "../assets";
+import { github, website } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
@@ -15,6 +15,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  live_link,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -31,8 +32,18 @@ const ProjectCard = ({
 
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
             <div
-              onClick={() => window.open(source_code_link, "blank")}
-              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+              onClick={() => {
+                if (source_code_link === false) {
+                  alert("Github repository link not available :(");
+                } else {
+                  window.open(source_code_link, "blank");
+                }
+              }}
+              className={`black-gradient w-10 h-10 rounded-full flex justify-center items-center ${
+                source_code_link === false
+                  ? "cursor-not-allowed"
+                  : "cursor-pointer"
+              }`}
             >
               <img
                 src={github}
@@ -41,13 +52,13 @@ const ProjectCard = ({
               />
             </div>
             <div
-              onClick={() => window.open(source_code_link, "blank")}
+              onClick={() => window.open(live_link, "blank")}
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
               <img
-                src={github}
-                alt="github"
-                className="w-1/2 h-1/2 object-contain bg-white"
+                src={website}
+                alt="live-link"
+                className="w-1/2 h-1/2 object-contain"
               />
             </div>
           </div>
@@ -83,10 +94,12 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
+          Below are some of the projects I am most proud of. They include a
+          personal project developed during my free time, a freelance project
+          completed for a client, and a professional project undertaken while
+          working as a developer. You are welcome to explore and interact with
+          these projects by creating accounts and navigating through the
+          provided links.
         </motion.p>
       </div>
 

@@ -20,9 +20,13 @@ const Hero = () => {
             Hi, I'm <span className="text-[#915eff]">Dionis</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop Website and Mobil
+            I develop Website and Mobile
             <br className="sm:block hidden" /> applications with stunning
             designs
+          </p>
+          <p className={`text-gray-400`}>
+            Hint: Try clicking and dragging the 3D looking objects in the page
+            ;)
           </p>
         </div>
       </div>

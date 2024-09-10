@@ -20,15 +20,20 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import website from "./portfolio/website.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import ucx from "./company/ucx.jpeg";
+import appbites from "./company/appbites.jpeg";
+import wearecasino from "./company/wearecasino.png";
+import ortus from "./company/ortus.jpeg";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import dojo from "./dojo.png";
+import mprofessional from "./mprofessional.png";
+import trafiku from "./trafiku.jpg";
 
 export {
   logo,
@@ -56,7 +61,12 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+  ucx,
+  appbites,
+  wearecasino,
+  ortus,
+  website,
+  dojo,
+  mprofessional,
+  trafiku,
 };
