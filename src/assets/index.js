@@ -30,6 +30,7 @@ import ucx from "./company/ucx.jpeg";
 import appbites from "./company/appbites.jpeg";
 import wearecasino from "./company/wearecasino.png";
 import ortus from "./company/ortus.jpeg";
+import telegrafi from "./company/telegrafi.jpeg";
 
 import dojo from "./dojo.png";
 import mprofessional from "./mprofessional.png";
@@ -65,6 +66,7 @@ export {
   appbites,
   wearecasino,
   ortus,
+  telegrafi,
   website,
   dojo,
   mprofessional,

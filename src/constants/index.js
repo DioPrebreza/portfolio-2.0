@@ -23,6 +23,7 @@ import {
   dojo,
   mprofessional,
   trafiku,
+  telegrafi,
 } from "../assets";
 
 export const navLinks = [
@@ -159,12 +160,25 @@ const experiences = [
     company_name: "The Ortus Club",
     icon: ortus,
     iconBg: "#E6DEDD",
-    date: "May 2024 - Present",
+    date: "May 2024 - November 2024",
     points: [
       "Generate leads and develop business by reaching out to potential clients across various platforms.",
       "Ensure a steady pipeline of outbound marketing leads, contributing to the company's growth.",
       "Build and maintain relationships with potential clients to drive long-term business development.",
       "Lead the planning and execution of high-profile business events, managing teams and collaborating with clients to deliver impactful experiences.",
+    ],
+  },
+  {
+    title: "Software Developer & IT Specialist",
+    company_name: "Telegrafi",
+    icon: telegrafi,
+    iconBg: "#d5197d",
+    date: "December 2024 - Present",
+    points: [
+      "Lead the development and innovation of Telegrafi’s main website and all subsidiary platforms (Telegrafi Jobs, Deals, Real Estate, Podcasts, Newsletter, etc.), ensuring high performance, scalability, and seamless user experience.",
+      "Oversee feature development, optimizations, and integrations, while managing SEO, security, and system performance across all platforms.",
+      "Handle IT infrastructure and support, including troubleshooting, network management, and internal system maintenance.",
+      "Collaborate with content, marketing, and business teams to align technical initiatives with company goals, while researching and implementing emerging technologies.",
     ],
   },
 ];
